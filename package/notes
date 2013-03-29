@@ -1,0 +1,4 @@
+rm -f TSHRC/src/*.o TSHRC/src/*.so
+R CMD check TSHRC
+R CMD build TSHRC
+R CMD check --use-valgrind TSHRC
