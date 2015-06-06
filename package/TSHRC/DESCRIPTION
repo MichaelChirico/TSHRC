@@ -6,6 +6,6 @@ Author: Jun Sheng, Peihua Qiu <qiu@stat.umn.edu>, and Charles J. Geyer
     <charlie@stat.umn.edu>
 Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
 Depends: R (>= 2.6.0)
-Description: two-stage procedure for comparing hazard rate functions 
-    which may or may not cross each other
+Description: Two-stage procedure for comparing hazard rate functions 
+    which may or may not cross each other.
 License: MIT + file LICENSE
