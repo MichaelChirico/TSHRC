@@ -1,11 +1,11 @@
 Package: TSHRC
-Version: 0.1-3
-Date: 2013-03-29
+Version: 0.1-4
+Date: 2016-11-27
 Title: Two Stage Hazard Rate Comparison
 Author: Jun Sheng, Peihua Qiu <qiu@stat.umn.edu>, and Charles J. Geyer
     <charlie@stat.umn.edu>
 Maintainer: Charles J. Geyer <charlie@stat.umn.edu>
 Depends: R (>= 2.6.0)
-Description: Two-stage procedure for comparing hazard rate functions 
+Description: Two-stage procedure compares hazard rate functions,
     which may or may not cross each other.
 License: MIT + file LICENSE

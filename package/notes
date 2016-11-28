@@ -1,4 +1,6 @@
-rm -f TSHRC/src/*.o TSHRC/src/*.so
+rm -f TSHRC/src/*.{o,so}
 R CMD check TSHRC
 R CMD build TSHRC
 R CMD check --use-valgrind TSHRC
+# before shipping
+R CMD check --as-cran TSHRC_0.1-4.tar.gz
