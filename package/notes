@@ -1,6 +1,7 @@
-rm -f TSHRC/src/*.{o,so}
-R CMD check TSHRC
+\rm -rf *.tar.gz # if version change
 R CMD build TSHRC
-R CMD check --use-valgrind TSHRC
+R CMD check TSHRC_*.tar.gz
+
+R CMD check --use-valgrind TSHRC_*.tar.gz
 # before shipping
-R CMD check --as-cran TSHRC_0.1-4.tar.gz
+R CMD check --as-cran TSHRC_*.tar.gz
