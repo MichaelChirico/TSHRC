@@ -9,3 +9,4 @@ Depends: R (>= 3.0.2)
 Description: Two-stage procedure compares hazard rate functions,
     which may or may not cross each other.
 License: MIT + file LICENSE
+URL: https://github.com/cjgeyer/TSHRC
